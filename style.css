@@ -1,5 +1,6 @@
 .header {
-  background-image: url("src/Johannesburg-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("src/Johannesburg-1.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -7,44 +8,71 @@
   max-width: 100%;
   height: auto;
 }
+.logo {
+  width: 120px;
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  backdrop-filter: blur(20px);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+nav li {
+  display: inline;
+  padding: 6px;
+  font-size: 18px;
+  font-family: "Raleway", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+nav ul {
+  list-style-type: none;
+  margin: 34px;
+  padding: 0;
+  overflow: hidden;
+}
 
 h1 {
+  text-align: center;
+  font-size: 120px;
+  font-family: garamond;
+  font-weight: 700;
+}
+
+h2 {
   font-size: 40px;
   text-align: center;
   margin-top: 0;
   padding-top: 150px;
 }
-h2 {
-  text-align: center;
-  font-size: 100px;
-  font-family: garamond;
-  font-weight: 700;
-}
 
 h3 {
+  font-family: "Raleway", serif;
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  margin-top: 0;
+}
+
+h4 {
   font-family: "Great Vibes", serif;
+  line-height: 3;
   font-weight: 400;
   font-style: normal;
   text-align: center;
   font-size: 50px;
   padding-bottom: 150px;
-}
-p {
-  line-height: 1.5;
-  font-size: 18px;
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-
-h4 {
-  text-align: center;
-  font-size: 30px;
-  font-family: "Raleway", serif;
-  font-optical-sizing: auto;
-  font-weight: 200;
-  font-style: normal;
 }
 
 h5 {
@@ -55,30 +83,65 @@ h5 {
   font-weight: 200;
   font-style: normal;
 }
+#welcome {
+  font-size: 70px;
+  font-family: garamond;
+  font-weight: 500;
+  color: grey;
+  padding-top: 30px;
+}
+
+h6 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
 
 @media (max-width: 576px) {
-  h1 {
+  h2 {
     font-size: 30px;
     text-align: center;
   }
-  h2 {
+  h1 {
     font-size: 50px;
     text-align: center;
   }
   h3 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
   }
   p {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
   }
   h4 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
   h5 {
     font-size: 20px;
     text-align: center;
+  }
+  h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #welcome {
+    font-size: 40px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
   }
 }
