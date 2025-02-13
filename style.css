@@ -91,10 +91,11 @@ h5 {
   font-style: normal;
 }
 #welcome {
-  font-size: 70px;
+  font-size: 72px;
   font-family: garamond;
   font-weight: 500;
   color: grey;
+  text-shadow: 2px 2px 4px rgb(80, 80, 85);
   padding-top: 30px;
 }
 
@@ -115,6 +116,7 @@ p {
   font-weight: 100;
   font-style: normal;
 }
+
 .footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("src/square-1637459297091-7fe9bc76b745.avif");

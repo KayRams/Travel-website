@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(217, 212, 212);
+}
+.logo {
+  width: 120px;
+  height: 60px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+button a {
+  color: grey;
+  text-decoration: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  backdrop-filter: blur(20px);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+nav li {
+  display: inline;
+  padding: 6px;
+  font-size: 18px;
+  font-family: "Raleway", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+nav ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 56px;
+  margin-top: 75px;
+  font-family: garamond;
+  font-weight: 700;
+  color: white;
+  text-shadow: 2px 2px 4px #413f3f;
+}
+
+p,
+h2 {
+  color: grey;
+}
+
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("src/square-1637459297091-7fe9bc76b745.avif");
+  background-size: cover;
+  color: white;
+  background-position: center;
+  position: relative;
+  max-width: 100%;
+  height: 400px;
+}
+
+.footer h2 {
+  padding-top: 150px;
+  color: white;
+  text-align: left;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.footer p {
+  font-weight: 500;
+  color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0;
+}
