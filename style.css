@@ -146,6 +146,12 @@ p {
   margin: 0;
   padding: 0;
 }
+
+.footer a {
+  color: orangered;
+  text-decoration: underline;
+}
+
 @media (max-width: 576px) {
   h1,
   h2,
