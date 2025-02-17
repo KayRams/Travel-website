@@ -173,7 +173,10 @@ p {
     font-size: 30px;
   }
 
-  h4,
+  h4 {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
   h6 {
     font-size: 24px;
   }
@@ -181,16 +184,26 @@ p {
   p {
     font-size: 18px;
     text-align: left;
-    padding: 0;
   }
+  .p-5 {
+    padding: 15px !important;
+  }
+
   #welcome {
+    font-family: garamond;
     font-size: 40px;
     text-align: center;
-    padding-bottom: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
   .custom {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     margin: 0 !important;
+  }
+  .footer h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
   }
 }

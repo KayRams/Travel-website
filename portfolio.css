@@ -90,3 +90,54 @@ h2 {
   color: orangered;
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+
+  h3,
+  h5 {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+    padding-bottom: 50px;
+  }
+  h6 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+    text-align: left;
+  }
+  .p-5 {
+    padding: 15px !important;
+  }
+  .luxury {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  .cradle {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .footer h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
+}
