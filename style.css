@@ -1,8 +1,8 @@
 .header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("src/Johannesburg-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("src/johannesburg_hero_16_9.webp");
   background-size: cover;
-  background-position: center;
+  background-position: absolute;
   position: relative;
   color: white;
   max-width: 100%;
@@ -60,7 +60,7 @@ h1 {
 h2 {
   font-size: 40px;
   text-align: center;
-  margin-top: 0;
+  margin-top: 18px;
   padding-top: 150px;
 }
 
@@ -118,7 +118,7 @@ p {
 }
 
 .footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("src/square-1637459297091-7fe9bc76b745.avif");
   background-size: cover;
   color: white;
